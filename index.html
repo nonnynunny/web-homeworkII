@@ -40,6 +40,18 @@
         <button type="button" onclick="document.getElementById('header').style.color='red'">เปลี่ยนสี</button>
     </div>
 
+    <h1>JavaScript Dates</h1>
+    <h2>Using new Date()</h2>
+    <p>new Date() without arguments, creates a date object with the current date and time:</p>
+
+    <p id="demo"></p>
+
+    <script>
+    const d = new Date();
+    document.getElementById("demo").innerHTML = d;
+    </script>
+        
+
     <div class="center">
         <button onclick="document.getElementById('myImage').src='images/Idle.png'">แมวยืน</button>
         <img id="myImage" src="images/Idle.png" width="200px">    
